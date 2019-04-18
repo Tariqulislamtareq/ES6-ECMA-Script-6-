@@ -5,7 +5,7 @@ const calculateAttendence = (numberOfclassesPerWeek, numOfWeeksPerSem, totalAttC
 };
 console.log("*******Attendence Prediction Calculator*******");
 const percentage = calculateAttendence(30, 14, 400) * 100;
-console.log(percentage + " %");
+console.log(Math.floor(percentage) + " %");
 if(percentage >= 90){
   console.log("Congratulation You Have Good Attendence Label");
 }else if(percetage >= 75){
