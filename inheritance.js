@@ -20,3 +20,4 @@ class Tareq extends Person{
 let tareq = new Tareq(22);
 tareq.greet();
 tareq.greetTwice();
+console.log(tareq.__proto__ === Tareq.prototype);
